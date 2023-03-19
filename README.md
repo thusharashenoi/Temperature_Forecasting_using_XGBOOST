@@ -2,10 +2,36 @@
 ## Project Description:
 Applying cutting-edge deep learning and machine learning techniques for Temperature forecasting has significantly improved Temperature prediction over conventional approaches. These novel techniques are appropriate for handling sizable data sets in forecasting scenarios where sizable amounts of historical temperature datasets could be used.  The project that follows is an Intel Optimised XGBOOST based Time series forecasting model that focuses on the prediction of Temperatures based on the information readily accessible from 1750 to 2015.
 ## Table of Contents:
-  1. Prerequisites
-  2. A brief Introduction to XGBoost
-  3. Components and Benefits of Intel API AI Analytics Toolkit.
-  4. Brief Description of the process
+  1. Data used
+  2. Prerequisites
+  3. Introduction to XGBoost
+      - Introduction
+      - Benefits
+      - Syntaxes
+      - Installation
+  4. Intel API AI Analytics Toolkit
+      - Componenets
+      - Benefits
+  5. Process of Model Building
+## Data: 
+Geological records show that there have been a number of large variations in the Earth's climate. These have been caused by many natural factors, including changes in the sun, emissions from volcanoes, variations in Earth's orbit and levels of carbon dioxide (CO2). 
+
+The dataset had the following columns:
+1. date
+2. LandAverageTemp
+3. LandAverageTempUncertainity
+4. LandMaxTemp
+5. LandMaxTempUncertainity
+6. LandMinTemp
+7. LandMinTempUncertainity
+8. Land&OceanAverageTemp
+9. Land&OceanAverageTempUncertainity
+
+The following columns will be used in order to develop the model:
+1. date
+2. LandAverageTemp
+
+
 ##  Prerequisites:
  This model uses the following libraries of Python as Prerequisites:
  1. Numpy
@@ -26,8 +52,9 @@ Applying cutting-edge deep learning and machine learning techniques for Temperat
  6. XGBoost
       - It is a scalable, distributed gradient-boosted decision tree (GBDT) machine learning library.
       - syntax to use library: `import xgboost as xgb`
+    
   ## Introduction to XGBoost:
-  XGBoost, which stands for Extreme Gradient Boosting, is a scalable, distributed gradient-boosted decision tree (GBDT) machine learning library. It         provides parallel tree boosting and is the leading machine learning library for regression, classification, and ranking problems. XGBoost first grasps     the machine learning concepts and algorithms that XGBoost builds upon: supervised machine learning, decision trees, ensemble learning, and gradient         boosting.
+  XGBoost, which stands for Extreme Gradient Boosting, is a scalable, distributed gradient-boosted decision tree (GBDT) machine learning library. It         provides parallel tree boosting and is the leading machine learning library for regression, classification, and ranking problems. XGBoost first grasps     the machine learning concepts and algorithms that XGBoost builds upon: supervised machine learning, decision trees, ensemble learning, and gradient       boosting.Using XGBoost on Intel CPUs takes advantage of software accelerations powered by oneAPI, without requiring any code changes. Software            optimizations deliver the maximum performance for your existing hardware. This enables faster iterations during development and training, and lower     latency during inference.
    - BENEFITS:
    1. XGBoost is a highly portable library on OS X, Windows, and Linux platforms. It's also used in production by organizations across various verticals,         including finance and retail.
    2. XGBoost is open source, so it's free to use, and it has a large and growing community of data scientists actively contributing to its development.         The library was built from the ground up to be efficient, flexible, and portable.
@@ -37,6 +64,14 @@ Applying cutting-edge deep learning and machine learning techniques for Temperat
    `xgb_cl = xgb.XGBClassifier()`
    
    `reg = xgb.XGBRegressor(n_estimators=1000)`
+  - INSTALLATION:
+  Intel-optimized XGBoost can be installed in the following ways:
+  As a part of Intel® AI Analytics Toolkit
+  From PyPI repository, using pip package manager: pip install xgboost
+  From Anaconda package manager:
+    -  Using Intel channel: conda install xgboost –c intel
+    -  Using conda-forge channel: conda install xgboost –c conda-forge
+  As a Docker container (provided you have a DockerHub account)
 
   ## Components and uses of Intel API AI Analytics Toolkit.
   -Components:
