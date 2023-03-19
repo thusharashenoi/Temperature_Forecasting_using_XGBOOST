@@ -77,4 +77,4 @@ Applying cutting-edge deep learning and machine learning techniques for Temperat
     - Fast, accurate and efficient training and deployment of your model.
     - The ability to scale up and out for distributed computing.
     - Interoperability with intel’s latest optimization in a single package.
-##  Process of Model Building:
+
