@@ -1,6 +1,6 @@
 # Temperature_Forecasting_using_XGBOOST
 ## Project Description:
-Applying cutting-edge deep learning and machine learning techniques to weather forecasting has significantly improved weather prediction over conventional approaches. These novel techniques are appropriate for handling sizable data sets in forecasting scenarios where sizable amounts of historical weather datasets could be used.  The project that follows is an Intel Optimised XGBOOST based Time series forecasting model that focuses on the prediction of Temperatures until__________ based on the information readily accessible from 1750 to 2015.
+Applying cutting-edge deep learning and machine learning techniques for Temperature forecasting has significantly improved Temperature prediction over conventional approaches. These novel techniques are appropriate for handling sizable data sets in forecasting scenarios where sizable amounts of historical temperature datasets could be used.  The project that follows is an Intel Optimised XGBOOST based Time series forecasting model that focuses on the prediction of Temperatures based on the information readily accessible from 1750 to 2015.
 ## Table of Contents:
   1. Prerequisites
   2. A brief Introduction to XGBoost
