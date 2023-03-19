@@ -6,7 +6,7 @@ Applying cutting-edge deep learning and machine learning techniques to weather f
   2. A brief Introduction to XGBoost
   3. Components and Benefits of Intel API AI Analytics Toolkit.
   4. Brief Description of the process
-## * Prerequisites:
+##  Prerequisites:
  This model uses the following libraries of Python as Prerequisites:
  1. Numpy
       - Python library used for working with arrays.
@@ -26,7 +26,7 @@ Applying cutting-edge deep learning and machine learning techniques to weather f
  6. XGBoost
       - It is a scalable, distributed gradient-boosted decision tree (GBDT) machine learning library.
       - syntax to use library: `import xgboost as xgb`
-  ## * Introduction to XGBoost:
+  ## Introduction to XGBoost:
   XGBoost, which stands for Extreme Gradient Boosting, is a scalable, distributed gradient-boosted decision tree (GBDT) machine learning library. It         provides parallel tree boosting and is the leading machine learning library for regression, classification, and ranking problems. XGBoost first grasps     the machine learning concepts and algorithms that XGBoost builds upon: supervised machine learning, decision trees, ensemble learning, and gradient         boosting.
    - BENEFITS:
    1. XGBoost is a highly portable library on OS X, Windows, and Linux platforms. It's also used in production by organizations across various verticals,         including finance and retail.
@@ -38,7 +38,7 @@ Applying cutting-edge deep learning and machine learning techniques to weather f
    
    `reg = xgb.XGBRegressor(n_estimators=1000)`
 
-  ## *Components and uses of Intel API AI Analytics Toolkit.
+  ## Components and uses of Intel API AI Analytics Toolkit.
   -Components:
   
       - Machine Learning
@@ -77,4 +77,4 @@ Applying cutting-edge deep learning and machine learning techniques to weather f
     - Fast, accurate and efficient training and deployment of your model.
     - The ability to scale up and out for distributed computing.
     - Interoperability with intel’s latest optimization in a single package.
-## * Process of Model Building:
+##  Process of Model Building:
