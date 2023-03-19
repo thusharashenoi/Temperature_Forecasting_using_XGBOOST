@@ -112,4 +112,44 @@ The following columns will be used in order to develop the model:
     - Fast, accurate and efficient training and deployment of your model.
     - The ability to scale up and out for distributed computing.
     - Interoperability with intel’s latest optimization in a single package.
+   
+## Components and uses of Intel API AI Analytics Toolkit
+1. Finalising a project topic
 
+  - The first step into starting this project was to decide from the variety of domains which topic we wanted to work on. We were asked to choose from:       Predicting disease outcomes, medical image analysis, telemedicine, image recignition, fraud detection, recommendation system, time series analysis,       customer segmentation.
+  - We decided to go ahead with Time Series Analysis for Global Temperature Prediction. 
+   
+2. Choosing an appropriate toolkit
+
+  - From the the various above listed Intel API toolkits, we decided to use the AI Analytics Toolkit in order to use the Intel Optimized XGBoost for           building predictive models.
+  
+3. Finding a data set
+
+  - After going through multiple datasets on Kaggle, we finaz=lid on the Global Mean Temperatures.csv dataset.
+  
+4. Cleaning the data set
+
+  - Used Forward fill and Backward fill Methods in order to eliminate the null values to improve accuracy of the dataset. 
+ 
+5. Data visualisation
+
+  - Use of Scatter plots to demontrate the trends of Globabl Average temperature variation with time.
+  
+6. Splitting data set for training and testing data
+  - The dataset was then segregated into two part - Training data and Testing Data.
+  - The split was made on the date 01/Jan/1969
+   
+7. Visualisation of training and testing data
+  - The Dataset is again Visualized using Scatter plots.
+  - Now the Training and Testing datasets are shown separately using blue(testing data) and orange(training data)
+  
+8. Creation of XGBoost model
+
+9. Training the model
+
+10. Testing the model
+
+11. Error calculation
+    -Use of mean error and mean absolute error in order to show the accuracy of the model.
+    
+12. Documentation
