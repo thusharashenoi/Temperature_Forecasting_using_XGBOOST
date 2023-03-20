@@ -51,6 +51,7 @@ The following columns will be used in order to develop the model:
       - syntax to use library: `from sklearn.metrics import mean_squared_error, mean_absolute_error`
  6. XGBoost
       - It is a scalable, distributed gradient-boosted decision tree (GBDT) machine learning library.
+      - In order to use XGBoost, we need to install Intel Optimized XGBoost as `pip install xgboost`
       - syntax to use library: `import xgboost as xgb`
     
   ## Introduction to XGBoost:
